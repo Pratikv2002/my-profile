@@ -1,0 +1,227 @@
+#body{
+    background-image: url(/image/shubham-dhage-50GSjnC7qXw-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+#iconbackground{
+   /* background-color: black; */
+   padding: 2px;
+   display: none;}
+#icon{
+  display: none;
+  position: static;
+  margin: 3px;
+  background-color:white;
+  padding: 3px;
+  width: 25px;
+  
+}
+#icon hr{
+  color: black;
+    margin: 3px;
+    opacity: 6;
+}
+
+#myProfession{
+    margin-top: 2em;
+    grid-column-start:3 ;
+    grid-column-end: 4;
+}
+#and{
+    margin-left:25%;
+}
+#btnResume{
+    margin: 10px;
+    background: none;
+    /* border-color: black; */
+    box-shadow: none;
+    padding: 5px;
+    outline: none;
+}
+#myIntro{
+    display: grid;
+    margin-top: 60px;
+}
+#divOfMyImg{
+    text-align: center;
+    grid-column-start:4 ;
+    grid-column-end: 6;
+}
+#myImg{
+    border-radius: 50%;
+    height: 300px;
+}
+#btnResume:hover{
+    background-color: #E1306C;
+    color: white;
+}
+#hrLine1{
+    opacity: 6;
+    height: 2px;
+}
+#hrLine2{
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    opacity: 6;
+    height: 2px;
+}
+
+.nav-link:hover{
+    color: black!important;;
+   
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github{
+    background-color: black;
+    color: white;
+  }
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #E1306C;
+    color: white;
+  }
+#projecta:hover{
+ background: rgb(241, 125, 125) ;
+
+}
+nav ul li a i{
+  padding: -5px;
+ margin: -5px;
+}
+nav ul ul{
+    position:absolute;
+    /* top: 60px; */
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+   background: rgb(241, 125, 125);
+}
+nav ul ul li a{
+  color: white;
+}
+nav ul ul li{
+    margin: 10px;
+    width: auto;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+ nav ul ul li a:hover{
+    display: block;
+    background: rgb(243, 77, 77);
+    color: black;
+ }
+ #footer{
+   display: none;
+ }
+ @media screen and (max-width: 650px) {
+    #nav{
+      display: none;
+    }
+    #iconbackground{
+      display:block;
+    }
+     #icon{
+       display:block;
+     }
+     #myIntro{
+       display: flex;
+       flex-direction: column-reverse;
+       
+     }
+     
+     #myImg{
+       height: 150px;
+     }
+     #divOfMyImg h5{
+       font-size: 15px;
+    }
+    #myProfession h1{
+      font-size: 20px;
+      text-align: center;
+    }
+    #myProfession #and{
+      font-size: 17px;
+      /* text-align: center; */
+      margin-left:45%;
+    }
+    #myProfession{
+      margin-top: 5px;
+      margin-bottom: 0px;
+      height: 155px;
+    }
+    #myProfession h5{
+      font-size: 15px;
+      margin: 5px;
+      text-align: center;
+    }
+    #myIntro{
+      margin-top: 5px;
+    }
+    #hrLine2{
+     margin-bottom: 5px;
+     margin-top: 5px;
+     max-width: 130px;
+     text-align: center;
+      opacity: 6;
+      height: 2px;
+  }
+  #btnResume, #hrline3,#myProfession a{
+     display: none;
+  }
+  #about {
+    font-size: 20px; 
+  }
+  #about + p{
+    margin-left: 5px !important;
+    margin-top: -30px;
+    text-align: center;
+  }
+  #footer {
+    display: table;
+    margin-left: auto;
+    margin-right: auto; 
+    /* margin-bottom: 8px; */
+  }
+    /* #footer{
+    display:table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    background: black;
+
+  } */
+  #footer a{
+    font-size: 10px;
+    border-radius: 40;
+    width: 30px;
+    margin: 5px;
+  } 
+}
